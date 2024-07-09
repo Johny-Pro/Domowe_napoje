@@ -1,0 +1,118 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-image: linear-gradient(90deg, rgba(104, 255, 49, 1) 20%, rgba(89, 131, 252, 1) 100%);
+}
+
+
+nav{
+    font-size: 40px;
+    display: flex;
+    /* justify-content: end; */
+    
+}
+
+.menu-link{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 14px 20px;
+    transition-duration: 2s;
+    border-bottom: 2px solid transparent ;
+}
+
+.menu-link:hover{
+    color:red;
+    transition-duration: 0.1s;
+    border-bottom: 2px solid red ;
+}
+
+h1{
+    margin: 100px;
+    margin-top: 0;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.kontener{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.potrawa{
+    width: 300px;
+    text-align: center;
+
+}
+
+.potrawa> img{
+    width:240px;
+    height:240px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+#oferta,
+#galeria
+{
+background-image: linear-gradient(90deg, rgba(104, 255, 49, 1) 20%, rgba(89, 131, 252, 1) 100%);
+}
+
+.zdj-galeria{
+    width:400px;
+    height:250px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.zdj-galeria:hover{
+    transform: scale(1.2,1.2);
+    transition-duration: 1s;
+}
+
+footer{
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(104, 255, 49, 1) 20%, rgba(89, 131, 252, 1) 100%);
+    color:rgb(0, 0, 0);
+}
+
+form input,
+form textarea{
+    width: 330px;
+    height: 30px;
+}
+
+legend{
+    font-size: 30px;
+}
+
+fieldset{
+text-align: left;
+padding: 20px;
+margin-bottom: 20px;
+}
+
+.button{
+    width:300px;
+    margin-left: 40px;
+    background-color: rgb(255, 0, 0);
+    padding:15px 32px;
+    font-size: 16px;
+    border-radius: 4px;
+    border:2px solid rgb(255, 0, 0);
+    text-transform: uppercase;
+    transition-duration: 0.4s;
+    height:50px;
+    color: rgb(255, 255, 255);
+}
+.button:hover{
+    background-color: rgb(0, 255, 0);
+    color:black;
+
+}
+form{
+    width:380px;
+
+}
